@@ -1,9 +1,9 @@
-<h1 class="text-info">Responsive Reveal: A <em>Responsive</em> jQuery Plugin For Modals</h1>
-<p>Based on the original Reveal modal plugin (https://github.com/zurb/reveal), which was an excellent starting point for adding a super light-weight modal function to a site.  The minor drawback is that modal sizes wasn't responsively displayed for mobile or arbitrary screen sizes.</p>
+<h1>Responsive Reveal: A <em>Responsive</em> jQuery Plugin For Modals</h1>
+<p>Based on the original Reveal modal plugin (https://github.com/zurb/reveal), which was an excellent starting point for adding a super light-weight modal function to a site.  The minor drawback is that modal sizes were bit responsively displayed for mobile or arbitrary screen sizes.</p>
 <p>This fork converts it into responsive display by converting widths to percentages and hiding modal elements using display:none, instead of visibility:hidden</p>
 
 <h3>Download & Documentation </h3>
-<p>Documentation is in the code.</p>
+<p>Documentation is in the code.  To run, unpack reveal_responsive.zip and launch demo.html</p>
 
 <p class="muted">[Below this is the original README]</p>
 
