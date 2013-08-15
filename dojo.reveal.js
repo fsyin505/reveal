@@ -93,7 +93,7 @@ dojo.addOnLoad(function () {
       dojo.style(this.modal, {
         'top': dojo._docScroll().y - this.topOffset + 'px',
         'opacity' : 0,
-        'visibility' : 'visible'
+        'display' : 'block'
       });
 
       this.modalBG.style({'display': 'block', 'opacity': 0});
@@ -137,7 +137,7 @@ dojo.addOnLoad(function () {
       dojo.style(this.modal, {
         top: this.topMeasure + 'px', 
         opacity : 1,
-        visibility : 'hidden'
+        display : 'none'
       });
       this.unlockModal();
     },
@@ -146,7 +146,7 @@ dojo.addOnLoad(function () {
       this.modalBG.style({'display': 'block', 'opacity': 0});
       dojo.style(this.modal, {
         'opacity' : 0,
-        'visibility' : 'visible',
+        'display' : 'block',
         'top': dojo._docScroll().y + this.topMeasure + 'px'
       });
 
@@ -186,7 +186,7 @@ dojo.addOnLoad(function () {
     closeFadeComplete: function () {
       dojo.style(this.modal, {
         'opacity' : 1,
-        'visibility' : 'hidden',
+        'display' : 'none',
         'top' : this.topMeasure + 'px'
       });
 			this.unlockModal();
@@ -198,7 +198,7 @@ dojo.addOnLoad(function () {
     
     animateNone: function () {
       dojo.style(this.modal, {
-        visibility: 'visible',
+        display: 'block',
         top: dojo._docScroll().y + this.topMeasure
       });
 			this.modalBG.style({
@@ -210,7 +210,7 @@ dojo.addOnLoad(function () {
     
     closeNone: function () {
       dojo.style(this.modal, {
-        visibility: 'hidden',
+        display: 'none',
         top: this.topMeasure
       });
       this.modalBG.style("display", "none");
